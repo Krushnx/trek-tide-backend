@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 
 const app = express();
 const corsOptions ={
-    origin:['http://localhost:3000' , 'https://trek-tide.web.app/'], 
+    origin:['http://localhost:3000' , 'https://trek-tide.web.app'], 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
