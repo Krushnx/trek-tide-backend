@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-
+const auth = require('../middleware/auth')
 
 const {getallhotels , asyncFunc , getHotel , createHotel, updateHotel} = require('../controller/hotelController')
 
 
 
 // Get all Hotels
-router.get('/' ,getallhotels);
+router.get('/',getallhotels);
 
 // Get One Hotel
 router.get('/:id' , asyncFunc , getHotel);

@@ -1,5 +1,29 @@
 const mongoose = require('mongoose');
 
+const reviewSchema = new mongoose.Schema({
+  username: {
+    type: String,
+    required: true,
+  },
+  reviewRating: {
+    type: Number,
+    required: true,
+  },
+  reviewTitle: {
+    type: String,
+    required: true,
+  },
+  reviewDate: {
+    type: Date,
+  },
+  reviewDescription: {
+    type: String,
+    required: true,
+  },
+});
+
+
+
 const hotelSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -48,6 +72,7 @@ const hotelSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  reviews: [reviewSchema]
 });
 
 const Hotel = mongoose.model('Hotel', hotelSchema);

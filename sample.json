@@ -1,0 +1,33 @@
+{
+    "name": "The Taj Mahal Palace",
+    "city": "Mumbai",
+    "subtitle": "Luxury Redefined in the New Delhi",
+    "information": "The Taj Mahal Palace opened in Mumbai, then Bombay, in 1903, giving birth to the country’s first harbour landmark. The recently trademarked flagship hotel overlooks the majestic Gateway of India. This legendary hotel in Mumbai has played host to kings, dignitaries and eminent personalities from across the globe, and is acknowledged as a world leader in hospitality. Each of the rooms 285 rooms & suites are a striking blend of nostalgic elegance, rich history and modern facilities. Strategically located in Mumbai’s prime historical and commercial hub, The Taj Mahal Palace is walking distance from Colaba Causeway, known for its touristy tiny roadside shops. The city’s financial hub, parliament, stadium, offices and shopping districts are all located within close proximity; as is a flourishing art and heritage precinct with must visit museums, art galleries, churches and synagogues. The airports are an hour away. For those who would like to experience fine dining in style, we host 9 of the city’s most acclaimed restaurants and bars, renowned for delectable cuisines from India, Europe, the Middle East and the Orient. Relish authentic Indian cuisine at Masala Kraft; world famous Japanese dishes at Wasabi by Morimoto; exquisite Eastern Mediterranean food at Souk and Chinese at Golden Dragon. Dine all day at Shamiana and choose from the exotic range of sumptuous desserts at La Patisserie. Unwind with a refreshing meal at Aquarius, the poolside restaurant in Mumbai; and visit the stylish Harbour Bar. Signature experiences such as the afternoon tea at Sea Lounge and private dining at the Chef’s Studio make your stay with us truly memorable. J Wellness Circle offers a soothing blend of contemporary aromatherapy massages and rejuvenating therapies. Amidst a bustling metro, the hotel invites you to an Ayurveda Sanctuary, offering holistic healing with ancient traditions. Mumbai’s original luxury hotel has 11 newly refurbished halls and venues, ideal for occasions ranging from formal meetings to elaborate weddings. The  Ballroom can accommodate around 300 guests, is perfect for conferences and grand private events. You could opt for a private dinner or yacht party if you are looking to entertain in true style. Our globally acclaimed Golden Keys Concierge would be happy to help, and caters to all your requirements in the city. Come, experience the legend.",
+    "rating": {
+        "$numberDouble": "9.8"
+    },
+    "reviewCount": {
+        "$numberInt": "96984"
+    },
+    "price": {
+        "$numberInt": "14999"
+    },
+    "fakePrice": {
+        "$numberInt": "29999"
+    },
+    "features": [
+        "3 x Master Bedroom",
+        "Swimming Pool",
+        "2 x Attached Bathroom",
+        "5 Star View"
+    ],
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg/1200px-Mumbai_Aug_2018_%2843397784544%29.jpg",
+    "image2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/e9/b9/68/the-taj-mahal-palace.jpg?w=700&h=-1&s=1",
+    "image3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/103703163.jpg?k=760f615013b8331e247fcd22e5a6c98be3a2dc24f664c74021c28dc820acbaaf&o=&hp=1",
+    "images": [
+        "https://media.cntraveler.com/photos/5dee7549d606100008e741f0/16:9/w_2560,c_limit/The-Taj-Mahal-Palace_2019_Taj-Mahal-Palace,-Mumbai---Corridor-1.jpg",
+        "https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/gallery/Ballroom%20Corridor.jpg/_jcr_content/renditions/cq5dam.web.756.756.jpeg"
+    ],
+    "link": "https://www.tajhotels.com/en-in/taj/taj-mahal-palace-mumbai/",
+    "catogary": "golden"
+}

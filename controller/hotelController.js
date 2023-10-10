@@ -138,7 +138,30 @@ const updateHotel = async(req,res)=>{
     if (req.body.link != null) {
         res.hotel.link = req.body.link;
     }
+    if (req.body.newReview) {
+        // Assuming req.body.newReview is an object containing review details
+        const newReview = {
+            username: req.body.newReview.username,
+            reviewRating: req.body.newReview.reviewRating,
+            reviewTitle: req.body.newReview.reviewTitle,
+            reviewDate: new Date(),
+            reviewDescription: req.body.newReview.reviewDescription,
+        };
+
+        const existingReviewIndex = res.hotel.reviews.findIndex(
+            (review) => review.username === newReview.username
+        );
+
+        if (existingReviewIndex !== -1) {
+            // Update the existing review
+            res.hotel.reviews[existingReviewIndex] = newReview;
+        } else {
+            // Add the new review to the reviews array
+            res.hotel.reviews.push(newReview);
+        }
     
+
+    }
 
 
     try 
