@@ -57,10 +57,9 @@ const registerUser = async (req, res) => {
       // Send the token in a HTTP-only cookie
   
       res.cookie("token" , token , {
-        httpOnly:true
-        // ,
-        // secure:true,
-        // sameSite:"none"
+        httpOnly:true,
+        secure:true,
+        sameSite:"none"
       }).send();
   
   
@@ -105,10 +104,9 @@ const loginUser =  async (req , res)=>
     // Send the token in a HTTP-only cookie
 
     res.cookie("token" , token , {
-      httpOnly:true
-    //   ,
-    //   secure:true,
-    //   sameSite:"none"
+      httpOnly:true,
+      secure:true,
+      sameSite:"none"
     }).send();
 
 
