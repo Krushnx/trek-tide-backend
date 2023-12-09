@@ -6,7 +6,7 @@ const {getallhotels , asyncFunc , getHotel , createHotel, updateHotel} = require
 
 
 
-// Get all Hotels here
+// Get all Hotels here n
 router.get('/',getallhotels);
 
 // Get One Hotel
